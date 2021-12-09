@@ -47,7 +47,7 @@ def expand(matrix, visited, row, col):
 sizes = []
 
 
-def find_islands(matrix):
+def findIslands(matrix):
     global sizeOut
     nRows = len(matrix)
     nCols = len(matrix[0])
@@ -69,7 +69,7 @@ def find_islands(matrix):
     return count
 
 
-find_islands(nums)
+findIslands(nums)
 
 sizes = list(sorted(sizes, reverse=True))
 
