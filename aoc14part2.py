@@ -17,8 +17,6 @@ for i in range(len(polymer)-1):
     else:
         pairs[couple] = 1
 
-print(pairs)
-
 for _ in range(40):
     newPairs = {}
     letters = {}
